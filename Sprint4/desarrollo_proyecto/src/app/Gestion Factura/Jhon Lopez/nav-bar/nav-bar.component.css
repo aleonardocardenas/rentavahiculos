@@ -1,0 +1,12 @@
+*{
+    background-color: slateblue;
+}
+
+p{
+    font-size: large;
+    color: white;
+}
+
+navbar, button {
+    background-color: black;
+}

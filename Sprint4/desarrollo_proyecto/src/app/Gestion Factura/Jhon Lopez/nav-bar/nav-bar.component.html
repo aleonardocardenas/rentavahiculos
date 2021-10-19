@@ -1,0 +1,28 @@
+<!--<p>nav-bar works!</p> -->
+<nav class="navbar navbar-expand-sm" navbar-ligth-bg-ligth>
+    
+    <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#opcion1">
+        <span class="navbar-toggle-icon"></span>
+    </button> 
+
+    <a class="navbar-brand" href="#">
+        <img src="https://cdn.auto.it/images/2020/05/07/113955605-2ecd0d99-3346-4199-921b-1bee8efd2462.jpg" alt="" width="120" height="50">
+    </a>
+
+    <div class="collapse navbar-collapse" id="opciones">
+
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <button class="btn-dark">
+                <a [routerLink]="['']" class="nav.link"><p>Medio de pago</p></a>
+                </button>
+            </li>
+            <li class="navbar-item">
+                <button class="btn-dark">
+                <a [routerLink]="['registrar']" class="nav.link"><p>Registrar-factura</p></a>
+            </button>
+            </li>
+        </ul>
+    </div>
+
+</nav>
