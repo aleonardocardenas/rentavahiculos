@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+ody{
+    margin: 3em 15em 3em 15em;
+    background-color: #F5F5F5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: url(http://localhost/ciclo3proyecto/images/leftfront1.jpg);
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: center;
+    opacity: 1;
+    color: white;
+    margin-top: 5em;
+    border: 150px solid #9EA285;
+ 	border-radius: 10px;
+    border: 5px;
+ 	padding-top: 5px  ;
+ 	padding-right: 1px;
+    font-size: 20px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .logo{
+    background-size: contain;
+background-repeat: no-repeat;
+    opacity: 1;
+    background: transparent;
+/ */
+
+.carro{
+    width: 200px;
+    height: 180px;
+}
+.text_line{
+    clear: both;
+    margin-bottom: 2px;
+}
+nav.navbar{
+    list-style: none;
+    position:absolute;
+    left: 70%;
+    top: 0.2em;
+    width: 10cm;
+    text-align: center;
+}
+nav.navbar li{
+
+    margin: 0.2em 0;
+    padding: 0.1em;
+    border-bottom: 0.2em solid #B2B2B2;
+    border-bottom-style:ridge;
+}
+
+nav.navbar2{
+    list-style: none;
+    padding-top: 70px;
+}
+
+nav.navbar2 a{
+    text-decoration: none;
+}
+
+nav.navbar2 li{
+    font-size: 20px;
+    margin: 0.2em 0;
+    padding: 0.1em;
+    border-bottom: 0.2em solid #B2B2B2;
+    border-bottom-style: ridge;
+}
+nav a:hover{
+        color: #BFBCBC;
+    display: block;
+}
+
+nav.navbar a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+a:link{
+    color: black;
+}
+/*a:visited{
+    color: red;
+}*/
+address{
+    text-align: right;
+}
+
+footer{
+
+    border: 3px solid #9EA285;
+ 	border-radius: 10px;
+ 	padding: 7px;
+ 	text-align: center;
+ 	margin: 7px;
+ 	background: linear-gradient(to top,white, grey);
+ 	font-family: "Lucida Sans Unicode";
+ 	font-size: 11px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover {
+    color: #BFBCBC;
+}
+
+.formularioo{
+    padding: 0.5em 4em;
+    margin: 25px auto;
+    width: 210px;
+    /*background: linear-gradient(to top, rgb(52, 72, 184), grey);*/
+    background-color: rgb(195, 196, 199);
+    border: 2px solid grey;
+    border-radius: 4em;
+    text-align: center;
+}
+.entrada{
+    text-align: center;
+    padding: 0.5em;
+    
+    margin-bottom: 0.5em;
+    border: 2px solid grey;
+    border-radius: 2em;
+    /*background-color: rgba(230, 148, 148, 0.719);*/
+}
+.bott{
+    font-size: medium;
+    padding: 1em;
+   margin-top: 1em;
+    border: 2.5px solid grey;
+    border-radius: 4em;
+}
+.bott:hover{
+    color: rgb(2, 2, 2);
+    background-color: rgb(187, 185, 185);
+}
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    padding: 2em;
+    position: relative;
+    /*border: 0.2em solid grey;
+    border-radius: 4em;*/
+    width: 100%; 
+   }
+
+ #portfolio div.carro1caracteristicas {
+    background-color: rgb(230, 230, 231);
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*float: right;*/
+  padding: 15px;
+  position: relative;
+  border: 0.1em solid grey;
+  border-radius: 4em;
+  margin: 0.8em;
+ }
+
+  #portfolio ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .box {
+    width: 33.3%;
+    padding:20px;
+    border: 0.1em solid grey;
+    border-radius: 4em;
+    margin: 0.8em;
+   background-color: rgb(230, 230, 231);
+  }
+  
+  .box img {
+    width: 100%;
+  }
+
+  #infor {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  .box2{
+      float:right;
+      margin: 3em solid black;
+  }
+  .box a:hover img{
+    transform: scale(1.1); 
+  }
+
+
+#portfolio {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
