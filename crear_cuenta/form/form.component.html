@@ -1,0 +1,84 @@
+<body>
+  <div class="aaa">
+    <img
+      src="C:\Users\willi\OneDrive\Escritorio\Programming minTic 2021\Fundamentos de la programacion\Ciclo 3\Semana 3\bmw.pnj"
+      alt=""
+    />
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a routerLink="/app-restistrar-usuarios">Inicia sesión</a>
+        </li>
+        <li>
+          <a routerLink="./restistrar-usuarios.component.html">Crear cuenta</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar2">
+      <ul>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/principal.html">Inicio</a>
+        </li>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/portafolio.html"
+            >Portafolio</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/quienessomos.html"
+            >Quienes somos</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- tabla de formulario-->
+    <div class="formularioo">
+      <h2>Iniciar sesión</h2>
+
+      <form
+        name="nuevo_usuario"
+        method="POST"
+        action="http://localhost/ciclo3proyecto/capturadatos.php"
+      >
+        <label class="label">Nombre de usuario</label>
+        <input
+          class="entrada"
+          type="text"
+          name="usuario"
+          size="20"
+          placeholder="Type the user name"
+        />
+
+        <label class="label">Contraseña</label>
+        <input
+          class="entrada"
+          type="password"
+          name="password"
+          size="20"
+          placeholder="Type the password"
+        />
+
+        <input
+          class="bott"
+          type="submit"
+          size="20"
+          value="Log in"
+          name="enviar"
+        />
+        <button
+          class="bott"
+          type="Reset"
+          onclick="alert('Seguro desea resetear?')"
+        >
+          ¿Olvidasté tu contraseña?
+        </button>
+      </form>
+    </div>
+    <address>Creada el 18 de septiembre</address>
+    <footer>
+      <p><a href="correoao@gmail.com">soporte@nomolestes.com</a></p>
+      &copy; Trusted Website &nbsp;| Design by
+      <a href="www.google.com">William Nieto</a>
+    </footer>
+  </div>
+</body>
