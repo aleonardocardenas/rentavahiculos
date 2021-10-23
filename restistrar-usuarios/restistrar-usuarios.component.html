@@ -1,0 +1,135 @@
+<body>
+  <div class="aaa">
+    <img
+      src="C:\Users\willi\OneDrive\Escritorio\Programming minTic 2021\Fundamentos de la programacion\Ciclo 3\Semana 3\bmw.pnj"
+      alt=""
+    />
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a routerLink="./form.component.html">Inicia sesión</a>
+        </li>
+        <li>
+          <a routerLink="./restistrar-usuarios.component.html">Crear cuenta</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navbar2">
+      <ul>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/principal.html">Inicio</a>
+        </li>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/portafolio.html    "
+            >Portafolio</a
+          >
+        </li>
+        <li>
+          <a href="http://localhost/ciclo3proyecto/quienessomos.html"
+            >Quienes somos</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <h2>Crear cuenta</h2>
+    <p>
+      A continuación, por favor ingresa los datos en el formulario para una
+      crear cuenta en nuestra plataforma y obtener beneficios por membresia
+    </p>
+
+    <!-- tabla de formulario-->
+    <div class="formularioo">
+      <h1>Formulario</h1>
+
+      <form
+        name="nuevo_usuario"
+        method="POST"
+        action="http://localhost/ciclo3proyecto/capturadatos.php"
+      >
+        <label class="label">Nombres</label>
+        <input
+          class="entrada"
+          type="text"
+          name="nombrecompleto"
+          size="20"
+          placeholder="Type your name"
+        />
+
+        <label class="label">Pais</label>
+        <input
+          class="entrada"
+          type="text"
+          name="Pais"
+          size="20"
+          placeholder="Type your country"
+        />
+
+        <label class="label">Ciudad</label>
+        <input
+          class="entrada"
+          type="text"
+          name="Ciudad"
+          size="20"
+          placeholder="Type your city"
+        />
+
+        <label class="label">Nombre de usuario</label>
+        <input
+          class="entrada"
+          type="text"
+          name="usuario"
+          size="20"
+          placeholder="Create an user name"
+        />
+
+        <label class="label">Contraseña</label>
+        <input
+          class="entrada"
+          type="password"
+          name="password"
+          size="20"
+          placeholder="Create a password"
+        />
+
+        <label class="label">Email</label>
+        <input
+          class="entrada"
+          type="email"
+          name="email"
+          size="20"
+          placeholder="Type your email"
+        />
+
+        <label class="label">Fecha de nacimiento</label>
+        <input
+          class="entrada"
+          type="email"
+          name="email"
+          size="20"
+          placeholder="Type your email"
+        />
+
+        <input
+          class="bott"
+          type="submit"
+          size="20"
+          value="Registrar"
+          name="enviar"
+        />
+        <button
+          class="bott"
+          type="Reset"
+          onclick="alert('Seguro desea resetear?')"
+        >
+          Reset
+        </button>
+      </form>
+    </div>
+    <address>Creada el 18 de septiembre</address>
+    <footer>
+      <p><a href="correoao@gmail.com">soporte@nomolestes.com</a></p>
+      &copy; Trusted Website &nbsp;| Design by
+      <a href="www.google.com">William Nieto</a>
+    </footer>
+  </div>
+</body>
